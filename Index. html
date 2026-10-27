@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amir Pakur News</title>
+  <meta name="description" content="Pakur, Jharkhand ki local news aur taza khabrein.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f4f7;
+      color: #222;
+    }
+    header {
+      background: #b80000;
+      color: white;
+      text-align: center;
+      padding: 22px 10px;
+    }
+    header h1 { margin: 0 0 8px; }
+    header p { margin: 0; }
+    nav {
+      background: #222;
+      padding: 12px 5px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 9px;
+      font-size: 14px;
+    }
+    .breaking {
+      background: #ffdf00;
+      padding: 12px;
+      font-weight: bold;
+    }
+    main {
+      max-width: 850px;
+      margin: auto;
+      padding: 15px;
+    }
+    .welcome, .news-card, .contact {
+      background: white;
+      padding: 18px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px #0001;
+    }
+    .news-card h3 { color: #b80000; }
+    .news-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .tag {
+      display: inline-block;
+      background: #b80000;
+      color: white;
+      padding: 5px 9px;
+      border-radius: 4px;
+      font-size: 12px;
+    }
+    .contact a {
+      display: inline-block;
+      background: #128c4a;
+      color: white;
+      padding: 12px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 18px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📰 AMIR PAKUR NEWS</h1>
+  <p>पाकुड़ की खबर, आपके साथ</p>
+  <p>Pakur, Jharkhand</p>
+</header>
+
+<nav>
+  <a href="#home">होम</a>
+  <a href="#news">ताजा खबर</a>
+  <a href="#about">हमारे बारे में</a>
+  <a href="#contact">संपर्क</a>
+</nav>
+
+<div class="breaking">
+  🔴 BREAKING NEWS: पाकुड़ की ताजा खबरों के लिए हमारी वेबसाइट देखें।
+</div>
+
+<main>
+  <section class="welcome" id="home">
+    <h2>Amir Pakur News में आपका स्वागत है</h2>
+    <p>पाकुड़ और आसपास की खबरें, स्थानीय समाचार और जरूरी अपडेट यहाँ पढ़ें।</p>
+  </section>
+
+  <section id="news">
+    <h2>🗞️ ताजा खबरें</h2>
+
+    <article class="news-card">
+      <span class="tag">PAKUR</span>
+      <h3>पाकुड़ की खबरें</h3>
+      <p>यहाँ अपनी पहली स्थानीय खबर का शीर्षक और पूरी जानकारी लिखें।</p>
+    </article>
+
+    <article class="news-card">
+      <span class="tag">JHARKHAND</span>
+      <h3>झारखंड अपडेट</h3>
+      <p>यहाँ झारखंड से जुड़ी सत्यापित खबरें प्रकाशित करें।</p>
+    </article>
+
+    <article class="news-card">
+      <span class="tag">LOCAL NEWS</span>
+      <h3>आपकी खबर, आपकी आवाज</h3>
+      <p>स्थानीय खबर प्रकाशित करने से पहले जानकारी की पुष्टि जरूर करें।</p>
+    </article>
+  </section>
+
+  <section class="welcome" id="about">
+    <h2>हमारे बारे में</h2>
+    <p>Amir Pakur News पाकुड़, झारखंड की स्थानीय खबरों के लिए बनाया गया एक समाचार मंच है।</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>📞 संपर्क करें</h2>
+    <p>अपनी खबर या सुझाव भेजने के लिए संपर्क करें।</p>
+    <p>जिला: पाकुड़, झारखंड</p>
+    <a href="https://wa.me/918298047856">WhatsApp पर संपर्क करें</a>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Amir Pakur News</p>
+  <p>सही खबर, जिम्मेदारी के साथ।</p>
+</footer>
+
+</body>
+</html>
